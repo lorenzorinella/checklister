@@ -5,9 +5,17 @@ export const checlists = [
     elements: ["maglietta", "pantaloni", "accappatoio", "borraccia"],
   },
   {
-    title: "fotografia",
+    title: "spesa",
     id: 2,
-    elements: ["pane", "pasta", "patate", "formaggio"],
+    elements: [
+      "pane",
+      "pasta",
+      "patate",
+      "formaggio",
+      "rosmarino",
+      "noci",
+      "yogurt",
+    ],
   },
   {
     title: "viaggio",
