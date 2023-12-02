@@ -23,7 +23,9 @@ function App() {
           );
         })}
       </ul>
-      <ChecklistDisplay listnumber={choice} />
+      <div className="itemListContainer">
+        <ChecklistDisplay listnumber={choice} />
+      </div>
     </div>
   );
 }

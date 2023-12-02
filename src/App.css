@@ -19,3 +19,12 @@ li {
 .error {
   color: red;
 }
+
+a:hover {
+  color: green;
+  font-weight: bold;
+}
+
+.itemListContainer {
+  font-style: italic;
+}
