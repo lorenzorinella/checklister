@@ -8,6 +8,7 @@ function App() {
   const checklistClick = (id) => {
     setChoice(id);
   };
+
   console.log("Hai premuto sull'elemento numero: ", choice);
   return (
     <div className="App">

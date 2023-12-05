@@ -1,5 +1,8 @@
 .App {
-  text-align: center;
+  padding: 2em;
+  width: 30em;
+  margin: auto;
+  background-color: rgb(203, 255, 203);
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -21,10 +24,27 @@ li {
 }
 
 a:hover {
-  color: green;
+  color: rgb(180, 54, 15);
   font-weight: bold;
 }
 
 .itemListContainer {
-  font-style: italic;
+  /*font-style: italic;*/
+  font-weight: bold;
+  text-align: left;
+}
+
+.barrato {
+  text-decoration: line-through;
+  font-weight: normal;
+  color: grey;
+}
+
+label {
+  padding-left: 0.5em;
+}
+
+h3 {
+  padding-left: 0.5em;
+  margin-top: 0em;
 }
