@@ -9,7 +9,6 @@ function App() {
     setChoice(id);
   };
 
-  console.log("Hai premuto sull'elemento numero: ", choice);
   return (
     <div className="App">
       <h3>Hey we have some checklists: </h3>
